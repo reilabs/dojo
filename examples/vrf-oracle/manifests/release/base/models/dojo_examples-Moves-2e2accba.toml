@@ -1,0 +1,21 @@
+kind = "DojoModel"
+class_hash = "0x61fa996f7cf8412bb5aca7d4bd4fd9eca806a92e5007e87d23f638b6774ed40"
+original_class_hash = "0x61fa996f7cf8412bb5aca7d4bd4fd9eca806a92e5007e87d23f638b6774ed40"
+abi = "manifests/release/base/abis/models/dojo_examples-Moves-2e2accba.json"
+tag = "dojo_examples-Moves"
+manifest_name = "dojo_examples-Moves-2e2accba"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "remaining"
+type = "u8"
+key = false
+
+[[members]]
+name = "last_direction"
+type = "Direction"
+key = false

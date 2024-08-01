@@ -1,0 +1,26 @@
+kind = "DojoModel"
+class_hash = "0x5191a56dc5a83bb56969ddb5fcc70dc1ac4ad057d0a054cf555a0023b454923"
+original_class_hash = "0x5191a56dc5a83bb56969ddb5fcc70dc1ac4ad057d0a054cf555a0023b454923"
+abi = "manifests/dev/base/abis/models/dojo_examples-PlayerConfig-3adad785.json"
+tag = "dojo_examples-PlayerConfig"
+manifest_name = "dojo_examples-PlayerConfig-3adad785"
+
+[[members]]
+name = "player"
+type = "ContractAddress"
+key = true
+
+[[members]]
+name = "name"
+type = "ByteArray"
+key = false
+
+[[members]]
+name = "items"
+type = "Array<PlayerItem>"
+key = false
+
+[[members]]
+name = "favorite_item"
+type = "Option<u32>"
+key = false
